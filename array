@@ -12,3 +12,6 @@ printf("Characters in the array:\n");
 for(i=0 ; i<5 ; i++)
 {
 scanf(":%c",&arr[i]);
+}
+return 0;
+}
