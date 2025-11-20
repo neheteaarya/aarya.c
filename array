@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+char arr[5];
+int i;
+
+printf("Enter 5 characters:");
+for(i=0 ; i<5 ; i++)
+{
+scanf("%c",&arr[i]);
+}
+printf("Characters in the array:\n");
+for(i=0 ; i<5 ; i++)
+{
+scanf(":%c",&arr[i]);
